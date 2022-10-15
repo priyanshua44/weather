@@ -27,7 +27,7 @@ https://priyanshua44.github.io/weather/
 • HTML\
 • CSS\
 • Bootstrap\
-• React Js\
+• React Js
 
 
 
