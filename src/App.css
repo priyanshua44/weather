@@ -16,20 +16,22 @@ body {
   .weatherResultBox{
     background-color: #a3f6fe;
     margin: auto;
-    /* width: 500px; */
+    width: 700px;
     height: 300px;
+    box-shadow: black 2px 4px 20px 3px !important;
   }
   .weathorIcon{
-    margin-top: 2rem;
     width: 100px;
     height: 100px;
   }
   .weathorCity{
-    font-size: 35px;
+  font-size: 3rem;
+    color: #226b78;
   }
   .weathorTemp{
-    font-size:55px;
+    font-size: 2.3rem;
     font-weight: 700;
+    color : #388391
   }
 
   .btn:hover {
@@ -42,6 +44,21 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
     width: 200px;
+  }
+
+  .left p, .right p {
+    color: #388391;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .left h5, .right h5 {
+    color: #226b78;
+    font-size: 1.7rem;
+  }
+
+  .description{
+    color: #1f7483;
   }
 
   /* Animation */
@@ -75,6 +92,22 @@ body {
 
         h1{
             font-size: 2rem;
+        }
+
+        .left p, .right p {
+          font-size: 1rem;
+        }
+      
+        .left h5, .right h5 {
+          font-size: 1rem;
+        }
+
+        .weathorTemp{
+          font-size: 1.7rem;
+        }
+
+        .weathorCity{
+          font-size: 2rem;
         }
 
   }
